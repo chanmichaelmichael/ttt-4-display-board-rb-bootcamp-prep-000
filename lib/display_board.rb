@@ -10,5 +10,5 @@ def display_board(board)
   rows[1] = "-----------"
   rows[3] = "-----------"
   
-  for()
+  for i 
 end
