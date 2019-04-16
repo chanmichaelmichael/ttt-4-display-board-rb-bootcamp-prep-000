@@ -9,6 +9,4 @@ def display_board(board)
   rows[4] = "#{board[6]}|#{board[7]}|#{board[8]}"
   rows[1] = "-----------"
   rows[3] = "-----------"
-  
-  return rows
 end
