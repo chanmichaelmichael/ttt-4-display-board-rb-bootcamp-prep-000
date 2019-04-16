@@ -10,7 +10,7 @@ def display_board(board)
   rows[1] = "-----------"
   rows[3] = "-----------"
   
-  for i in 0..5
+  for i in 1..5
     puts "Value of local variable is #{i}"
   end
 end
