@@ -11,5 +11,5 @@ def display_board
   rows[1] = "-----------"
   rows[3] = "-----------"
   
-  rows
+  return rows
 end
