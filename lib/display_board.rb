@@ -5,9 +5,8 @@ def display_board
   
   rows = Array.new(4) "0, 2, 4 are input rows"
   
+  
   expect(rows[0]).to eq("   |   |   ")
-      expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq("   |   |   ")
-      expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq("   |   |   ")
+      rows[1] = "-----------"
+      rows[3] = "-----------"
 end
