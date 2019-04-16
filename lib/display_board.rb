@@ -11,5 +11,6 @@ def display_board(board)
   rows[3] = "-----------"
   
   for i in 0..5
-  
+    puts "Value of local variable is #{i}"
+  end
 end
