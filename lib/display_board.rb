@@ -5,6 +5,9 @@ def display_board
   
   rows = Array.new(5) "0, 2, 4 are input rows"
   
+  rows[0] = 
+  rows[2] = 
+  rows[4] = 
   
   expect(rows[0]).to eq("   |   |   ")
       rows[1] = "-----------"
