@@ -3,7 +3,7 @@
 def display_board
   board = [" "," "," "," "," "," "," "," "," "]
   
-  rows = Array.new(4) "0, 2, 4 are input rows"
+  rows = Array.new(5) "0, 2, 4 are input rows"
   
   
   expect(rows[0]).to eq("   |   |   ")
